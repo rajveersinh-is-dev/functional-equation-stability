@@ -18,7 +18,7 @@
 - [x] Axiom audit reports only standard logical axioms.
 - [x] Python tests and lint pass locally.
 - [x] Computational outputs and reproduction commands included.
-- [ ] GitHub Actions results verified after publication.
+- [x] GitHub Actions results verified after publication.
 
 ## Journal-specific preparation
 

@@ -4,7 +4,7 @@ Last updated: 2026-11-25 (UTC)
 
 ## Current phase
 
-Phases 13–16: final repository audit, GitHub publication, remote CI verification, and final report.
+Final audit and report complete; documentation commit and remote recheck remain.
 
 ## Flagship result
 
@@ -38,15 +38,17 @@ The closest strong general result located is Yang (2004), with bounds `2ε` and 
 - C11 non-Archimedean dichotomy: equation known and claimed instability false.
 - General cone Pexider extension: incremental; retained as background.
 
-## Remaining
+## Published and verified
 
-- Final unified build and artifact audit.
-- Stage, review, and commit the local project.
-- Create the new public GitHub repository under `rajveersinh-is-dev`.
-- Push and verify the remote branch, commit, files, and absence of secrets.
-- Verify GitHub Actions results.
-- Complete the final report and self-ratings.
+- Public repository: https://github.com/rajveersinh-is-dev/functional-equation-stability
+- Branch: `main`.
+- Verified code/CI commit: `69ac1d1956c0bcfdd97290920764db8b4799f919`.
+- Local and remote commit/tree identifiers matched.
+- Python, Lean, and LaTeX GitHub Actions all passed on the verified code commit.
+- No credentials or personal contact details were found in the published files.
 
-## Completion warning
+## Final artifacts
 
-The goal is not complete until the remote repository and CI are verified and the final completion audit passes.
+- `COMPLETION_AUDIT.md`: requirement-by-requirement evidence checklist.
+- `FINAL_REPORT.md`: research, proof, verification, academic, GitHub, ratings, and remaining-work report.
+- `submission/`: journal shortlist and submission package; no submission made.

@@ -9,6 +9,9 @@ ROOT = Path(__file__).resolve().parents[1]
 def test_required_research_files_exist() -> None:
     required = [
         "README.md",
+        "VERIFICATION.md",
+        "COMPLETION_AUDIT.md",
+        "FINAL_REPORT.md",
         "LICENSE",
         "CITATION.cff",
         "CONTRIBUTING.md",

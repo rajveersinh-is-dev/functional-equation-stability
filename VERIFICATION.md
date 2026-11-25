@@ -4,7 +4,7 @@
 
 This manifest records executed checks, not intended checks.
 
-## Leading candidate C2N
+## Flagship theorem C2N
 
 | Requirement | Evidence | Status |
 |---|---|---|
@@ -16,7 +16,7 @@ This manifest records executed checks, not intended checks.
 | Axiom audit | `tests/AxiomAudit.lean`; `experiments/results/lean_axioms.txt` | Standard axioms only |
 | Python tests | `python -m pytest -q` | 33 passed |
 | Python lint | `python -m ruff check experiments/source tests` | Passed |
-| LaTeX compilation | `tectonic paper/pexider_quadratic_manuscript.tex --outdir paper` | Passed |
+| LaTeX compilation | `tectonic paper/manuscript.tex --outdir paper` | Passed |
 | PDF citation check | `pdftotext` inspection | No undefined markers |
 | Independent adversarial review | `research/reviewer_reports/cycle3_*` and separate agent review | No blocking mathematical finding |
 | Exact-constant novelty | Targeted literature audit | Cleared: appears to improve Yang's `2ε, 3ε` bounds |
@@ -42,7 +42,7 @@ This manifest records executed checks, not intended checks.
 
 - [x] Final flagship novelty cleared against the audited literature.
 - [x] Final manuscript selected and renamed to `paper/manuscript.tex`.
-- [ ] Journal shortlist and submission package completed.
-- [ ] Local Git history reviewed.
-- [ ] Public remote repository created and verified.
-- [ ] GitHub Actions results verified.
+- [x] Journal shortlist and submission package completed.
+- [x] Local Git history reviewed.
+- [x] Public repository created and remote commit/tree verified.
+- [x] GitHub Actions results verified for code commit `69ac1d1`.

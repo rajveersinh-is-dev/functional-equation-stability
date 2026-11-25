@@ -15,8 +15,8 @@
 
 ## Open
 
-- [ ] **O8 — Publication:** Create and verify the new public GitHub repository, remote commit, files, and CI.
-- [ ] **O12 — Final audit:** Reconcile every directive requirement with actual artifacts and prepare the final report.
+- [x] **O8 — Publication:** The public repository, remote commit/tree, files, and all three CI workflows have been verified.
+- [x] **O12 — Final audit:** Every directive requirement is reconciled in `COMPLETION_AUDIT.md`, with the final report in `FINAL_REPORT.md`.
 
 ## Nonblocking limitations
 

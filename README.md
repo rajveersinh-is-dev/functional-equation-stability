@@ -1,5 +1,11 @@
 # Sharp Normalized Stability of the Pexider Quadratic Equation
 
+[![Python tests and lint](https://github.com/rajveersinh-is-dev/functional-equation-stability/actions/workflows/tests.yml/badge.svg)](https://github.com/rajveersinh-is-dev/functional-equation-stability/actions/workflows/tests.yml)
+[![Lean build and axiom audit](https://github.com/rajveersinh-is-dev/functional-equation-stability/actions/workflows/lean.yml/badge.svg)](https://github.com/rajveersinh-is-dev/functional-equation-stability/actions/workflows/lean.yml)
+[![LaTeX manuscript](https://github.com/rajveersinh-is-dev/functional-equation-stability/actions/workflows/manuscript.yml/badge.svg)](https://github.com/rajveersinh-is-dev/functional-equation-stability/actions/workflows/manuscript.yml)
+
+**Repository:** https://github.com/rajveersinh-is-dev/functional-equation-stability
+
 **Author:** Rajveersinh Vishal Pardeshi, Independent Researcher
 
 **Publication status:** Research manuscript and reproducibility archive. Not submitted to any journal; no acceptance or DOI is claimed.

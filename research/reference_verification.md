@@ -28,6 +28,7 @@
 | najati2011 | Najati–Cho, Fixed Point Theory Appl. 2011, 309026 | Journal article | Theorem 3.1 inspected by focused novelty investigation |
 | jung2000 | Jung, Abh. Math. Semin. Univ. Hamburg 70 (2000), 175–190 | Journal article | Bibliographic metadata and equation comparison supplied by focused novelty investigation |
 | jung2001 | Jung–Sahoo, JKMS 38 (2001), 645–656 | Journal article | Theorem 3 inspected by focused novelty investigation |
+| yang2004pexider | Yang, Aequationes Math. 68 (2004), 108–116 | Journal article | Strongest located two-function bounds inspected by focused novelty investigation; DOI metadata verified |
 
 ## Use restrictions
 

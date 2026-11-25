@@ -2,17 +2,21 @@
 
 ## Research status
 
-No flagship theorem has yet passed all originality and proof audits. Several correct results were rejected as known corollaries:
+The flagship theorem is the normalized sharp Pexider quadratic result with constants `ε/2` and `ε`. Its proof, sharpness, exact solution structure, and uniqueness corollary are complete and Lean-verified.
+
+Several other correct results were rejected as original flagship contributions:
 
 - finite-order quadratic stability: implied by Forti's Theorem 1.5;
 - finite-group additive constant one: implied by amenable-group stability;
-- ultrametric semigroup Pexider constant one: implied by Schwaiger's sharp Cauchy theorem;
-- the general cone Pexider formulation: a short extension of a classical equation.
+- dyadically eventually commuting quadratic stability: a direct corollary of Forti;
+- ultrametric semigroup Pexider constant one: a corollary of Schwaiger;
+- the general cone Pexider formulation: a short extension of a classical equation;
+- the proposed non-Archimedean instability dichotomy: the equation is known and a finite constant `|2|^{-1}` remains available.
 
 ## Formalization limits
 
-- The C2N normalized Pexider theorem and both sharpness lower bounds are fully formalized.
-- The C8 dyadic quadratic theorem and C10 semigroup Pexider theorems are fully formalized for their stated abstract hypotheses.
+- The flagship theorem, exact normalized structure, both sharpness lower bounds, and uniqueness corollary are fully formalized.
+- The C8 dyadic theorem and C10 semigroup Pexider theorems are fully formalized as background.
 - The C1 background theorem and cosine–sine quantitative branch are fully formalized.
 - The rejected C11 transfinite Hamel-extension argument is not formalized.
 - The `Q_p` sharpness example for C10 is proved in the archive but not in Lean.
@@ -20,15 +24,14 @@ No flagship theorem has yet passed all originality and proof audits. Several cor
 
 ## Mathematical limitations
 
-- C8 requires a Banach target and a pair-dependent dyadic power condition.
-- C10 concerns semigroups and ultrametric targets; its sharpness uses `Q_p`.
-- C11's stable regime is an existence theorem, not approximate uniqueness.
-- C11's instability statement concerns rich targets such as `K`, not the zero space.
-- No journal acceptance, DOI, or external peer review is claimed.
+- The flagship constants require `f(0)=g(0)=0`.
+- The target must be a complete real normed space for the dyadic limit.
+- “Quadratic” means a solution of the functional equation, not necessarily a continuous homogeneous form.
+- The result is a sharp quantitative strengthening of a classical equation, not a new equation.
+- External peer review has not occurred.
 
-## Blocking obligations
+## Publication limitations
 
-- Resolve the C11 lifting-lemma audit.
-- Complete the C11 and C8 novelty audits.
-- Select one flagship and complete three substantial review cycles.
-- Replace the background manuscript and finish the publication audit.
+- No journal submission, acceptance, DOI, institutional affiliation, or external endorsement is claimed.
+- Journal fit and policy information must be rechecked immediately before any future submission.
+- Actual submission requires separate human authorization.

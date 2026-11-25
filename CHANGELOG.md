@@ -9,4 +9,7 @@
 - Developed and audited additional cone, non-Archimedean, trigonometric, and semigroup candidates.
 - Proved and fully formalized normalized Pexider quadratic stability with sharp constants `ε/2` and `ε`; exact-constant novelty audit is in progress.
 - Added reproducible Python experiments, 31 passing tests, pinned Lean/Mathlib, LaTeX drafts, and CI configuration.
-- No public repository or journal submission has yet been made.
+- Published the public repository `rajveersinh-is-dev/functional-equation-stability` on branch `main`.
+- Verified Python, Lean, and LaTeX GitHub Actions on code commit `69ac1d1`.
+- No journal submission has been made.
+- Added the final completion audit, comprehensive report, real CI badges, and repository citation metadata.

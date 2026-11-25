@@ -96,6 +96,10 @@ A targeted literature audit is checking whether these exact constants are alread
 
 C2N was selected after the targeted audit found no published theorem with the exact normalized vector `(ε/2, ε)` or a componentwise stronger vector. Yang's general two-function bounds are `2ε` and `3ε`; Jung–Sahoo's general four-function bounds are much larger. The flagship contribution is therefore a sharp quantitative strengthening of a classical equation, not a claim that the equation itself is new.
 
+### Publication and CI
+
+The project was committed and pushed to the new public repository `rajveersinh-is-dev/functional-equation-stability`. Local and remote commit/tree identifiers matched. Initial CI failures in Python packaging and LaTeX tooling were corrected; Python, Lean, and LaTeX workflows all passed on code commit `69ac1d1`.
+
 ### New direction
 
 Four alternatives are now being investigated in parallel:

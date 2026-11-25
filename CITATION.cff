@@ -5,6 +5,7 @@ authors:
   - family-names: "Pardeshi"
     given-names: "Rajveersinh Vishal"
 type: software
+repository-code: "https://github.com/rajveersinh-is-dev/functional-equation-stability"
 license: MIT
 year: 2026
 abstract: "Sharp simultaneous Hyers-Ulam bounds for the normalized two-function Pexider quadratic equation, with complete proofs, Lean 4 formalization, literature audits, and reproducible computational checks."
