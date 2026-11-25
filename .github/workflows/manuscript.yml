@@ -16,6 +16,10 @@ jobs:
             -o /tmp/tectonic.tar.gz
           tar -xzf /tmp/tectonic.tar.gz -C /tmp
           sudo mv /tmp/tectonic /usr/local/bin/tectonic
+      - name: Install PDF text checker
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
       - name: Compile manuscript
         run: tectonic paper/manuscript.tex --outdir paper
       - name: Check PDF text
