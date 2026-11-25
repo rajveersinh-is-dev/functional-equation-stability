@@ -1,0 +1,12 @@
+{
+  "p": 3,
+  "cases_per_domain": 100,
+  "horizon": 20,
+  "zero_domain_max_defect": "3",
+  "positive_domain_max_defect": "3",
+  "ultrametric_sum_checks": 100,
+  "sharpness_example": {
+    "defect_norm": "1",
+    "repair_error_norm": "1"
+  }
+}

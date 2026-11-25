@@ -1,0 +1,204 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{doi}
+\usepackage{enumitem}
+\usepackage{microtype}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+\title{Sharp Normalized Stability of the Pexider Quadratic Equation}
+\author{Rajveersinh Vishal Pardeshi\\
+Independent Researcher}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We study the two-function Pexider quadratic equation on real normed spaces. If $f(0)=g(0)=0$ and the uniform defect is at most $\varepsilon$, we prove that a quadratic map $Q$ satisfies $\|f-Q\|_\infty\le\varepsilon/2$ and $\|g-Q\|_\infty\le\varepsilon$. Both constants are sharp. The proof uses the diagonal identity, a dyadic geometric estimate, and a scaled cross-defect limit. No regularity of $f$ or $g$ is assumed.
+\end{abstract}
+
+\textbf{Keywords:} Pexider equation; quadratic functional equation; Hyers--Ulam stability; sharp constant; Banach space.
+
+\section{Introduction}
+
+The quadratic functional equation
+\[
+Q(x+y)+Q(x-y)=2Q(x)+2Q(y)
+\]
+is central to the Jordan--von Neumann characterization of inner-product spaces. Its Pexider form contains two unknown functions and has a different normalization structure.
+
+We consider the equation
+\[
+2f\!\left(\frac{x+y}{2}\right)+2f\!\left(\frac{x-y}{2}\right)=g(x)+g(y).
+\]
+After the change of variables $u=(x+y)/2$, $v=(x-y)/2$, this is the classical partially Pexiderized quadratic equation
+\[
+g(u+v)+g(u-v)=2f(u)+2f(v).
+\]
+Earlier stability results include Czerwik's work, Jung's stability theorem, the sharper analysis of Jung and Sahoo, and Yang's remarks on Pexider-quadratic stability \cite{jung2000,jung2001,yang2004pexider}.
+
+We prove sharp simultaneous constants for the normalized problem. If $f(0)=g(0)=0$ and the defect is at most $\varepsilon$, then a quadratic $Q$ satisfies
+\[
+\|f-Q\|_\infty\le\frac{\varepsilon}{2},\qquad
+\|g-Q\|_\infty\le\varepsilon.
+\]
+The constants reflect the exact normalization: every exact normalized pair has the form $f=g=Q$.
+
+\section{Exact solution structure}
+
+Let $X$ be a real vector space. For an exact normalized pair, setting $x=y$ gives
+\[
+2f(x)=2g(x),
+\]
+so $g=f$. The original equation then reduces to
+\[
+f(u+v)+f(u-v)=2f(u)+2f(v),
+\]
+hence $f$ is quadratic. Therefore every exact normalized pair is
+\[
+f=g=Q
+\]
+for a quadratic map $Q$.
+
+This observation fixes the natural targets for approximation and explains why the two error constants need not be equal.
+
+\section{Main theorem}
+
+\begin{theorem}\label{thm:main}
+Let $X$ be a real normed space and $Y$ a real Banach space. Let $f,g:X\to Y$ satisfy $f(0)=g(0)=0$ and
+\[
+\left\|2f\!\left(\frac{x+y}{2}\right)+2f\!\left(\frac{x-y}{2}\right)-g(x)-g(y)\right\|\le\varepsilon
+\]
+for all $x,y\in X$. Then there is a quadratic map $Q:X\to Y$ such that
+\[
+\|f(x)-Q(x)\|\le\frac{\varepsilon}{2},\qquad
+\|g(x)-Q(x)\|\le\varepsilon
+\]
+for every $x$.
+\end{theorem}
+
+\begin{corollary}
+The approximating quadratic map is unique among all quadratic maps whose uniform distance from $f$ is finite.
+\end{corollary}
+
+\begin{theorem}[Sharpness]
+Both constants are optimal. On $X=Y=\mathbb R$, define $f(0)=g(0)=0$ and, for $x\ne0$,
+\[
+f(x)=x^2+\frac12,\qquad g(x)=x^2+1.
+\]
+The defect norm is at most $1$. The exact quadratic map $Q(x)=x^2$ has distances exactly $1/2$ and $1$, and no exact quadratic map has smaller uniform distances.
+\end{theorem}
+
+\section{Proof}
+
+Write the midpoint defect as $R(x,y)$.
+
+\subsection{Diagonal estimate}
+Setting $x=y$ gives
+\[
+\|2f(x)-2g(x)\|\le\varepsilon,
+\]
+hence
+\[
+\|g(x)-f(x)\|\le\frac{\varepsilon}{2}. \tag{1}
+\]
+
+\subsection{Dyadic estimate for $f$}
+Setting $y=0$ gives
+\[
+\|4f(x/2)-g(x)\|\le\varepsilon.
+\]
+Combining this with (1) yields
+\[
+\|4f(x/2)-f(x)\|\le\frac{3\varepsilon}{2}.
+\]
+Replacing $x$ by $2x$ and changing the sign gives
+\[
+\|f(2x)-4f(x)\|\le\frac{3\varepsilon}{2}. \tag{2}
+\]
+
+Define
+\[
+f_n(x)=4^{-n}f(2^n x).
+\]
+Equation (2) implies
+\[
+\|f_{n+1}(x)-f_n(x)\|\le\frac{3\varepsilon}{2\cdot4^{n+1}}.
+\]
+The sequence is uniformly Cauchy. Completeness of $Y$ gives a uniform limit $Q_0$. Telescoping gives
+\[
+\|f(x)-Q_0(x)\|\le\frac{3\varepsilon}{2}\sum_{n\ge0}4^{-(n+1)}
+=\frac{\varepsilon}{2}. \tag{3}
+\]
+Set $Q=Q_0$. Then $\|f-Q\|_\infty\le\varepsilon/2$, and (1) gives $\|g-Q\|_\infty\le\varepsilon$.
+
+\subsection{Quadraticity of the limit}
+For $u,v\in X$, the change of variables $x=u+v$, $y=u-v$ gives
+\[
+R(u+v,u-v)=2f(u)+2f(v)-g(u+v)-g(u-v).
+\]
+Consequently,
+\[
+f(u+v)+f(u-v)-2f(u)-2f(v)
+=(f(u+v)-g(u+v))+(f(u-v)-g(u-v))-R(u+v,u-v).
+\]
+By the diagonal estimate, its norm is at most $2\varepsilon$.
+
+Scaling this identity at $2^n u,2^n v$ by $4^{-n}$ gives
+\[
+\left\|f_n(u+v)+f_n(u-v)-2f_n(u)-2f_n(v)\right\|\le\varepsilon4^{-n}.
+\]
+Letting $n\to\infty$ proves that $Q_0$, and hence $Q$, is quadratic.
+
+If $Q_1,Q_2$ are quadratic maps at finite uniform distance from $f$, then $H=Q_1-Q_2$ is a bounded quadratic map. Thus $H(0)=0$, $H(2x)=4H(x)$, and
+\[
+H(x)=4^{-n}H(2^n x).
+\]
+The right-hand side tends to zero, so $H=0$. This proves the uniqueness corollary.
+
+\subsection{Sharpness}
+For the functions in Theorem~\ref{thm:main}, a direct case check gives defect $0$ or $\pm1$. If $x,y\ne0$ and $x\pm y\ne0$, the defect is zero; if exactly one argument is zero it is $1$; if $x=\pm y\ne0$ it is $-1$.
+
+Let $Q$ be any exact quadratic map. Then $Q(0)=0$ and $Q(nx)=n^2Q(x)$ for integer $n$. Taking $x=1$, write $a=Q(1)$. For $n\ne0$, the errors are $(1-a)n^2+1/2$ and $(1-a)n^2+1$. Uniform boundedness forces $a=1$. The distances are then exactly $1/2$ and $1$. Thus neither constant can be decreased.
+
+\section{Limitations}
+
+The target must be complete for the dyadic limit argument. The normalization $f(0)=g(0)=0$ is essential for the displayed constants; the unnormalized equation has additional shift terms. The result concerns existence of a nearby exact pair, not uniqueness among all approximate pairs.
+
+\section{Novelty discussion}
+
+The equation and simultaneous quadratic approximation are classical. The contribution of this note is the normalized sharp vector of constants and the elementary proof that both bounds are attained. No claim of a new solution classification or a new stability method is made. The comparison with earlier explicit Pexider bounds is maintained in the research archive.
+
+\section{Verification}
+
+The central theorem is formalized in Lean~4 with Mathlib. The formalization includes the diagonal estimate, dyadic Cauchy bound, limit construction, error estimates, and quadraticity of the limit. The sharpness example is given in the manuscript.
+
+An AI-assisted adversarial review checked the normalization, the absence of regularity assumptions, the two constants, and the extremizer. These reviews are not external peer review.
+
+\section{Open questions}
+
+\begin{enumerate}[label=(\arabic*)]
+\item Determine optimal constants without zero normalization.
+\item Extend the sharp estimates to locally convex cones.
+\item Investigate targets that are complete only along the relevant dyadic sequences.
+\item Determine whether the two bounds can be improved under additional symmetry or parity assumptions.
+\end{enumerate}
+
+\section{Conclusion}
+
+The normalized Pexider quadratic equation has simultaneous sharp stability constants $1/2$ and $1$. The exact pair structure $f=g=Q$ makes the constants natural, and the dyadic proof requires no regularity beyond the stated defect bound.
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

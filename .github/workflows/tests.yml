@@ -1,0 +1,38 @@
+name: Python tests and lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.14"
+          cache: pip
+      - name: Install pinned dependencies
+        run: python -m pip install -e '.[dev]'
+      - name: Lint
+        run: python -m ruff check experiments/source tests
+      - name: Test
+        run: python -m pytest -q
+      - name: Reproduce finite-group experiment
+        run: python experiments/source/finite_group_quadratic_lp.py --max-cyclic 16 > /tmp/finite_group_results.json
+      - name: Reproduce semigroup Pexider experiment
+        run: python experiments/source/semigroup_pexider_ultrametric.py --cases 100 --p 3 --horizon 20 > /tmp/semigroup_results.json
+      - name: Reproduce non-Archimedean obstruction experiment
+        run: python -m experiments.source.nonarch_dichotomy --modulus 64 --max-delta-power 8 > /tmp/nonarch_results.json
+      - name: Validate experiment outputs
+        run: |
+          python - <<'PY'
+          import json
+          finite = json.load(open('/tmp/finite_group_results.json'))
+          assert all(abs(g['lp_optimum'] - 0.5) < 1e-8 for g in finite['groups'])
+          semigroup = json.load(open('/tmp/semigroup_results.json'))
+          assert semigroup['sharpness_example']['defect_norm'] == '1'
+          nonarch = json.load(open('/tmp/nonarch_results.json'))
+          assert nonarch['records'][-1]['ratio'] == '512'
+          PY

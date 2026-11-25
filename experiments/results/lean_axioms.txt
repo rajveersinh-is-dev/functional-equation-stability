@@ -1,0 +1,47 @@
+Command: lake build && lake env lean tests/AxiomAudit.lean
+Date: 2026-11-25
+Build result: Build completed successfully (4346 jobs).
+
+'FunctionalEquationStability.sum_quadraticDefect_pow_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.norm_le_cyclic_defect_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.norm_le_half_of_isOfFinOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.sSup_torsionNorms_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.eq_zero_of_isQuadratic_of_periodic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.constantApproximateQuadratic_isApproximate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.isQuadratic_dyadicLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.exists_quadratic_approx_of_dyadicEventuallyCommuting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.approximate_pexider_nat_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.approximate_pexider_nat_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.exact_pexider_nat_zero_structure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.exact_pexider_nat_positive_structure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.half_constant_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.exists_quadratic_approx_of_pexiderQuadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.cosineSine_branch_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.cosineSine_branch_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.f_sharpness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.g_sharpness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FunctionalEquationStability.exact_pexiderQuadratic_normalized_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.exact_pexiderQuadratic_normalized_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FunctionalEquationStability.quadratic_unique_of_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

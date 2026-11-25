@@ -1,0 +1,15 @@
+Date: 2026-11-25
+
+Command: python -m ruff check experiments/source tests
+Output: All checks passed!
+
+Command: python -m pytest -q
+Output: .................................                                                      [100%]
+         33 passed in 1.28s
+
+Dependencies used:
+- Python 3.14.6
+- NumPy 2.4.6
+- SciPy 1.18.0
+- pytest 9.1.1
+- ruff 0.16.8

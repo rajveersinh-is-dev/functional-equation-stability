@@ -1,0 +1,62 @@
+{
+  "p": 2,
+  "residue_identity": "verified",
+  "records": [
+    {
+      "modulus": 64,
+      "delta": "2",
+      "maximum_defect_norm": "1/4",
+      "function_norm": "1",
+      "ratio": "4"
+    },
+    {
+      "modulus": 64,
+      "delta": "4",
+      "maximum_defect_norm": "1/8",
+      "function_norm": "1",
+      "ratio": "8"
+    },
+    {
+      "modulus": 64,
+      "delta": "8",
+      "maximum_defect_norm": "1/16",
+      "function_norm": "1",
+      "ratio": "16"
+    },
+    {
+      "modulus": 64,
+      "delta": "16",
+      "maximum_defect_norm": "1/32",
+      "function_norm": "1",
+      "ratio": "32"
+    },
+    {
+      "modulus": 64,
+      "delta": "32",
+      "maximum_defect_norm": "1/64",
+      "function_norm": "1",
+      "ratio": "64"
+    },
+    {
+      "modulus": 64,
+      "delta": "64",
+      "maximum_defect_norm": "1/128",
+      "function_norm": "1",
+      "ratio": "128"
+    },
+    {
+      "modulus": 64,
+      "delta": "128",
+      "maximum_defect_norm": "1/256",
+      "function_norm": "1",
+      "ratio": "256"
+    },
+    {
+      "modulus": 64,
+      "delta": "256",
+      "maximum_defect_norm": "1/512",
+      "function_norm": "1",
+      "ratio": "512"
+    }
+  ]
+}

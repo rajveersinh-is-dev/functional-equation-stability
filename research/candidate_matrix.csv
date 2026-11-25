@@ -1,0 +1,13 @@
+ID,Candidate,Importance (20%),Novelty potential (25%),Probability of rigorous result (20%),Theorem significance (20%),Research and portfolio value (10%),Independent verification feasibility (5%),Weighted score,Decision
+C1,Sharp finite-order stability bound for approximate quadratic maps on groups,6,1,9,6,7,10,5.65,Reject as non-novel corollary of Forti 2019 Theorem 1.5
+C2,Two-function Pexider quadratic stability in locally convex cones,6,4,9,7,7,4,6.30,Reserve: equation is classical and cone extension is incremental
+C2N,Normalized Pexider quadratic stability with sharp constants epsilon/2 and epsilon,7,8,9,7,8,9,7.85,Selected flagship: sharp strengthening of Yang 2004 bounds
+C3,Sharp four-function quadratic stability over general non-Archimedean dilation factors,6,6,8,5,6,5,6.15,Reserve candidate
+C4,Pareto-optimal constants for the Pexiderized Frechet equation,6,7,5,6,7,7,6.20,Reserve candidate
+C5,Sharp uniform Jensen stability over Q_p at the critical value abs(2)=1,7,7,7,7,8,6,7.05,Strong reserve candidate
+C6,Quantitative non-involutive Jensen stability over Q_p,5,6,4,5,6,4,5.10,Lower priority due to degeneration at s=1
+C7,Full polynomial stability over non-Archimedean fields beyond quadratic-additive conclusions,7,7,4,7,8,5,6.40,High risk reserve candidate
+C0,Sharp constant one for additive approximation on finite groups,3,1,10,2,3,9,4.00,Reject as non-novel corollary of amenable-group stability
+C8,Exact quadratic stability on dyadically eventually commuting groups,7,2,9,7,8,6,6.20,Reject as flagship: immediate corollary of Forti Theorems 1.5-1.6
+C10,Sharp Pexider stability on ultrametric semigroups,7,2,9,7,8,8,6.30,Reject as flagship: immediate corollary of Schwaiger sharp Cauchy stability
+C11,Non-Archimedean four-function quadratic stability dichotomy,8,2,5,5,6,3,4.85,Reject: equation known and finite constant abs(2)^-1 remains in residue-characteristic-two regime

@@ -1,0 +1,23 @@
+name: LaTeX manuscript
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  manuscript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: taiki-e/install-action@v2.90.9
+        with:
+          tool: tectonic
+      - name: Compile manuscript
+        run: tectonic paper/manuscript.tex --outdir paper
+      - name: Check PDF text
+        run: |
+          pdftotext paper/manuscript.pdf /tmp/manuscript.txt
+          if grep -q '??' /tmp/manuscript.txt; then
+            echo 'Undefined citation or reference marker found.'
+            exit 1
+          fi

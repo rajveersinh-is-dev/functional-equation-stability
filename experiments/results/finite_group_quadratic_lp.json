@@ -1,0 +1,412 @@
+{
+  "numpy": "2.4.6",
+  "groups": [
+    {
+      "group": "Z/2Z",
+      "order": 2,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        -0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/3Z",
+      "order": 3,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/4Z",
+      "order": 4,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/5Z",
+      "order": 5,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/6Z",
+      "order": 6,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/7Z",
+      "order": 7,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/8Z",
+      "order": 8,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/9Z",
+      "order": 9,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/10Z",
+      "order": 10,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/11Z",
+      "order": 11,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/12Z",
+      "order": 12,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/13Z",
+      "order": 13,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/14Z",
+      "order": 14,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/15Z",
+      "order": 15,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Z/16Z",
+      "order": 16,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "(Z/2Z)^1",
+      "order": 2,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        -0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "(Z/2Z)^2",
+      "order": 4,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "(Z/2Z)^3",
+      "order": 8,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "(Z/2Z)^4",
+      "order": 16,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "S3",
+      "order": 6,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "D4",
+      "order": 8,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    },
+    {
+      "group": "Q8",
+      "order": 8,
+      "cyclic_identity": "verified_exactly",
+      "lp_optimum": 0.5,
+      "lp_witness": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constant_value_norm": 0.5,
+      "constant_defect_norm": 1.0
+    }
+  ]
+}
